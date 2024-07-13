@@ -1,0 +1,27 @@
+chạy lệnh node api.js 
+sau dó  vô postman 
+đăng kí ta dùng trong postman là http://localhost:5000/register
+và dán lệnh:
+{
+	"name": "Trần Đình Thọ",
+	"password": "123456",
+	"email": "trandinhtho@gmail.com",
+	"phone": "0985401940",
+	"address": "nghia thanh",
+	"birth_date": "2002-08-30"
+}
+đăng nhập ta dùng http://localhost:5000/login
+{
+  "email": "trandinhtho@gmail.com",
+  "password": "123456"
+}
+
+thay đổi thông tin dùng lệnh http://localhost:5000/profile
+sử dụng Authorization trong header và type dùng Bearer<token trả về khi đăng nhập>
+và dùng lệnh 
+{
+  "name": "bbbin ne",
+  "phone": "22222222222",
+  "address": "địa chỉ mới",
+  "birth_date": "2004-11-04"
+}
